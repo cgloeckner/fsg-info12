@@ -13,7 +13,7 @@ while spielaktiv:
             spiel_status = 'spielen'
 
         elif spiel_status == 'spielen':    
-            call(['python','wieselrun.py'])
+            call(['python3', 'wieselrun.py'])
             spiel_status = 'ende'
         else:
              pygame.quit()

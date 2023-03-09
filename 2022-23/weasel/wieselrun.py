@@ -229,7 +229,7 @@ while spielaktiv:
     else:
         out_of_game_screen('game_over')
         zeit_übrig = 3600
-        nummer = 1
+        nummer = [1]
         spieler_x=512
         spieler_y=700
         letzte_richtung = 0
