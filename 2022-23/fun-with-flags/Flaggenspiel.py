@@ -74,7 +74,7 @@ def frageUndAntwort():
 
 
     # Bildgröße anpassen, damit das Bild ins Fenster passt
-    img = img.resize((200,350), Image.ANTIALIAS)
+    img = img.resize((200,350), Image.LANCZOS)
     # Bild in ein TK-kompatibles Format umwandeln
     img = ImageTk.PhotoImage(img)
     at.img = ImageTk.PhotoImage(at)
